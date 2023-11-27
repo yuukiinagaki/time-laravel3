@@ -1,0 +1,30 @@
+.header {
+    background: #f7eaea;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #080707;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+
+
+p {
+    text-align: center;
+}

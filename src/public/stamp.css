@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+    /*ユーザー設定の文字サイズを正しく反映*/
+}
+
+* {
+    box-sizing: border-box;
+    /*余白や線を幅や高さに含める*/
+}
+
+img {
+    max-width: 100%;
+    /*画像が親要素からはみ出すのを防ぐ*/
+    height: auto;
+    display: flex;
+    /*ロゴとulを横に並べる*/
+}
+
+
+body {
+    background-color: #fdfafa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #eceaea;
+    /*薄いグレー*/
+    padding: 0 1%;
+    display: flex;
+}
+nav{
+    width: 10%;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.startwork {
+    margin-right: 15px;
+    padding: 30px 80px;
+}
+
+.endwork {
+    padding: 30px 80px;
+}
+
+.startbreak {
+    margin-right: 15px;
+    padding: 30px 80px;
+}
+
+.endbreak {
+    padding: 30px 80px;
+}
